@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    background-color: #f0f0f0;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color:#e0e0eb;
+  }
+  mat-list{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
