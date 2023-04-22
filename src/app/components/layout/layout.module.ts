@@ -4,7 +4,7 @@ import { LayoutComponent } from './layout/layout.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import {MatIconModule} from '@angular/material/icon';
-
+import { RouterModule } from '@angular/router';
 
 
 
@@ -14,7 +14,8 @@ import {MatIconModule} from '@angular/material/icon';
     CommonModule,
     MatSidenavModule,
     MatListModule,
-    MatIconModule
+    MatIconModule,
+    RouterModule
   ],
   exports:[LayoutComponent]
 })

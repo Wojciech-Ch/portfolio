@@ -2,29 +2,29 @@
   <div class="sidebar">
     <div>
       <div>ikonka</div>
-      <div>Wojciech Chmura</div>
+      <div class="name">Wojciech Chmura</div>
     </div>
-    <a href="/home">
+    <a [routerLink]="['/home']">
       <div>ikonka</div>
       <div>Home</div>
     </a>
-    <a href="/about-me">
+    <a [routerLink]="['/about-me']">
       <div>ikonka</div>
       <div>About Me</div>
     </a>
-    <div>
+    <a [routerLink]="['/resume']">
       <div>ikonka</div>
       <div>Resume</div>
-    </div>
-    <div>
+    </a>
+    <a [routerLink]="['/portfolio']">
       <div>ikonka</div>
       <div>Portfolio</div>
-    </div>
+    </a>
     <div>
-      <div>
+      <a [routerLink]="['/contact']">
         <div>ikonka</div>
         <div>Contact</div>
-      </div>
+      </a>
     </div>
   </div>
   <div class="content">
